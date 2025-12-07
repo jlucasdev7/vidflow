@@ -1,10 +1,13 @@
 {
   "name": "vidflow",
   "version": "1.0.0",
-  "description": "![Imagem de capa do curso. O título é \"Node.js e terminal\" e o subtítulo é \"Dominando o ambiente de desenvolvimento front-end\".](./thumb.png)",
+  "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "build-preview": "vite build --watch",
+    "preview": "vite preview",
     "api-local": "json-server --watch backend/videos.json",
     "lint": "eslint ."
   },
